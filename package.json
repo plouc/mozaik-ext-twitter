@@ -17,7 +17,8 @@
   "dependencies": {
     "bluebird": "^2.9.9",
     "lodash": "^3.2.0",
-    "twitter": "^1.2.1"
+    "twitter": "^1.2.1",
+    "moment": "^2.9.0"
   },
   "main": "./components.js",
   "devDependencies": {
@@ -28,8 +29,6 @@
     "gulp-regex-replace": "^0.2.3",
     "gulp-rename": "^1.2.0",
     "gulp-strip-debug": "^1.0.2",
-    "lodash": "^3.2.0",
-    "moment": "^2.9.0",
     "react": "^0.12.2",
     "reflux": "^0.2.5"
   },
