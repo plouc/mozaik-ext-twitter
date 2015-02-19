@@ -1,7 +1,8 @@
 var Twitter = require('twitter');
 var Promise = require('bluebird');
 var _       = require('lodash');
-var config  = require('config');
+var chalk   = require('chalk');
+var config  = require('./config');
 
 /**
  * @param {Mozaik} context
