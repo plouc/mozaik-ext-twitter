@@ -1,6 +1,6 @@
 {
   "name": "mozaik-ext-twitter",
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "description": "Mozaik twitter widgets",
   "repository": {
     "type": "git",
@@ -16,9 +16,11 @@
   "homepage": "https://github.com/plouc/mozaik-ext-twitter",
   "dependencies": {
     "bluebird": "^2.9.9",
+    "chalk": "^0.5.1",
+    "convict": "^0.6.1",
     "lodash": "^3.2.0",
-    "twitter": "^1.2.1",
-    "moment": "^2.9.0"
+    "moment": "^2.9.0",
+    "twitter": "^1.2.1"
   },
   "main": "./components.js",
   "devDependencies": {
