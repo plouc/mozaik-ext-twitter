@@ -5,18 +5,11 @@ var chalk   = require('chalk');
 var config  = require('./config');
 
 /**
- * @param {Mozaik} context
+ * @param {Mozaik} mozaik
  */
-var client = function (context) {
+var client = function (mozaik) {
 
-    // load and validate config
-    config.load(context.config.api);
-    try {
-        config.validate();
-    } catch (e) {
-        context.logger.error(chalk.red(e.message));
-        process.exit(1);
-    }
+    mozaik.loadApiConfig(config);
 
     var twitter = new Twitter({
         consumer_key:        config.get('consumerKey'),
