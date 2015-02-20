@@ -1,5 +1,7 @@
 # Mozaïk twitter widgets
 
+[![Travis CI](https://img.shields.io/travis/plouc/mozaik-ext-twitter.svg?style=flat-square)](https://travis-ci.org/plouc/mozaik-ext-twitter)
+
 ## Twitter Client Configuration
 
 In order to use the Mozaïk twitter widgets, you **must** configure its **client**.
