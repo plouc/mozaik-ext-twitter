@@ -12,10 +12,10 @@ var client = function (mozaik) {
     mozaik.loadApiConfig(config);
 
     var twitter = new Twitter({
-        consumer_key:        config.get('consumerKey'),
-        consumer_secret:     config.get('consumerSecret'),
-        access_token_key:    config.get('accessTokenKey'),
-        access_token_secret: config.get('accessTokenSecret')
+        consumer_key:        config.get('twitter.consumerKey'),
+        consumer_secret:     config.get('twitter.consumerSecret'),
+        access_token_key:    config.get('twitter.accessTokenKey'),
+        access_token_secret: config.get('twitter.accessTokenSecret')
     });
 
     function _get(op, q) {
