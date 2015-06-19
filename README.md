@@ -8,12 +8,12 @@ In order to use the Mozaïk twitter widgets, you **must** configure its **client
 
 ### parameters
 
-key              | description
------------------|-------------------------
-`consumerKey`    | *twitter consumer key*
-`consumerSecret` | *twitter consumer secret*
-`accessTokenKey` | *twitter access token key*
-`accessTokenKey` | *twitter access token key*
+key                 | description
+--------------------|------------------------------
+`consumerKey`       | *twitter consumer key*
+`consumerSecret`    | *twitter consumer secret*
+`accessTokenKey`    | *twitter access token key*
+`accessTokenSecret` | *twitter access token secret*
 
 ### usage
 
