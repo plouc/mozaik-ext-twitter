@@ -10,7 +10,7 @@ var ListTweet = React.createClass({
                 {this.props.tweet.text}
                 <div>
                     <i className="fa fa-retweet" /> {this.props.tweet.retweet_count}&nbsp;
-                    <i className="fa fa-star" /> {this.props.tweet.favorite_count}
+                    <i className="fa fa-heart" /> {this.props.tweet.favorite_count}
                 </div>
             </div>
         );
