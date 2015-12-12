@@ -1,6 +1,6 @@
 var React  = require('react');
 
-var Media = React.createClass({
+var TweetMedia = React.createClass({
     render() {
         var cssClasses = 'media';
 
@@ -10,4 +10,4 @@ var Media = React.createClass({
     }
 });
 
-module.exports = Media;
+module.exports = TweetMedia;
