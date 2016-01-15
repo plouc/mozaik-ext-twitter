@@ -1,6 +1,7 @@
 # Mozaïk twitter widgets
 
 [![Travis CI](https://img.shields.io/travis/plouc/mozaik-ext-twitter.svg?style=flat-square)](https://travis-ci.org/plouc/mozaik-ext-twitter)
+[![NPM version](https://img.shields.io/npm/v/mozaik-ext-twitter.svg?style=flat-square)](https://www.npmjs.com/package/mozaik-ext-twitter)
 
 ## Twitter Client Configuration
 
